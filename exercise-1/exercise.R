@@ -20,4 +20,4 @@ seahawks.data$won <- seahawks.scores > opponent.scores
 opponents <- c('Chargers', 'Vikings', 'Chiefs', 'Raiders')
 
 # Assign your dataframe rownames of their opponents
-seahawks.data$opponents <- opponents
+rownames(seahawks.data) <- opponents
